@@ -10,5 +10,5 @@ import OdigeoButton from '../components/OdigeoButton/OdigeoButton'
 storiesOf('OdigeoButton', module)
   .addDecorator(jsxDecorator)
   .add('a button test', () => (
-    <OdigeoButton onClick={action('clicked')}>Hello world</OdigeoButton>
+    <OdigeoButton clicked={() => alert('clicked')}>Hello world</OdigeoButton>
   ));

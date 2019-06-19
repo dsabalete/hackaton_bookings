@@ -13,7 +13,7 @@ const classes = {
 }
 
 const OdigeoButton = props => (
-    <div style={classes}>
+    <div style={classes} onClick={props.clicked}>
         {props.children}
     </div>
 )
