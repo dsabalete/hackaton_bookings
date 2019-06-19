@@ -1,0 +1,33 @@
+{
+  "name": "hackaton_bookings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsabalete/hackaton_bookings.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsabalete/hackaton_bookings/issues"
+  },
+  "homepage": "https://github.com/dsabalete/hackaton_bookings#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@storybook/addon-actions": "^5.1.8",
+    "@storybook/addon-links": "^5.1.8",
+    "@storybook/addons": "^5.1.8",
+    "@storybook/html": "^5.1.8",
+    "@storybook/react": "^5.1.8",
+    "babel-loader": "^8.0.6",
+    "storybook-addon-jsx": "^7.1.2"
+  }
+}
