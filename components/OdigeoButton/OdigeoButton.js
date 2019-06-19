@@ -1,9 +1,19 @@
 import React from 'react'
 
-import classes from './OdigeoButton.module.scss'
+const classes = {
+    color: 'white',
+    backgroundColor: 'blue',
+    boxShadow: '1px 2px 2px #ccc',
+    display: 'inline-block',
+    margin: '1rem',
+    padding: '1rem',
+    fontFamily: 'Verdana',
+    fontSize: '1.2em',
+    cursor: 'pointer'
+}
 
 const OdigeoButton = props => (
-    <div className={classes.OdigeoButton}>
+    <div style={classes}>
         {props.children}
     </div>
 )
