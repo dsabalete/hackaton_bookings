@@ -19,7 +19,10 @@
     "url": "https://github.com/dsabalete/hackaton_bookings/issues"
   },
   "homepage": "https://github.com/dsabalete/hackaton_bookings#readme",
-  "dependencies": {},
+  "dependencies": {
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@storybook/addon-actions": "^5.1.8",
