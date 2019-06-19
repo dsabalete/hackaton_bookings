@@ -7,8 +7,6 @@ import { linkTo } from '@storybook/addon-links';
 
 import { Button, Welcome } from '@storybook/react/demo';
 
-import OdigeoButton from '../components/OdigeoButton'
-
 storiesOf('Welcome', module)
   .addDecorator(jsxDecorator)
   .add('to Storybook', () => <Welcome showApp={linkTo('Button')} />);
@@ -24,8 +22,3 @@ storiesOf('Button', module)
     </Button>
   ));
 
-storiesOf('OdigeoButton', module)
-  .addDecorator(jsxDecorator)
-  .add('a button test', () => (
-    <OdigeoButton onClick={action('clicked')}>Hello world</OdigeoButton>
-  ));
