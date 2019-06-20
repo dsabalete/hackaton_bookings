@@ -8,5 +8,5 @@ import Input from '../components/Forms/Input';
 storiesOf('Odigeo Forms', module)
   .addDecorator(jsxDecorator)
   .add('Basic Input', () => (
-    <Input id="Test" name="TestName"/>
+    <Input id="Test" name="TestName">First Name</Input>
   ))

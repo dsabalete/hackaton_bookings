@@ -11,7 +11,9 @@ const Input = props => {
                 id={props.id} 
                 type={props.type || "text"} 
                 name={props.name} />
-            <label className={classes['odf-label']} htmlFor={props.id}>First Name</label>
+            <label className={classes['odf-label']} htmlFor={props.id}>
+                {props.children}
+            </label>
             <div className={classes.after}></div>
         </fieldset>
     )
