@@ -1,2 +1,5 @@
-export {Primary} from './components/OdigeoButtons/Primary';
-export {Input} from './components/Forms/Input';
+import Primary from './components/OdigeoButtons/Primary'
+import Input from './components/Forms/Input'
+
+export const Primary;
+export const Input;
