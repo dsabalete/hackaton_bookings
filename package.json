@@ -21,6 +21,7 @@
   "homepage": "https://github.com/dsabalete/hackaton_bookings#readme",
   "dependencies": {
     "node-sass": "^4.12.0",
+    "react-modal": "^3.8.1",
     "sass-loader": "^7.1.0"
   },
   "devDependencies": {
