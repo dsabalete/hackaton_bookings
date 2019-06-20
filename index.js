@@ -1,3 +1,3 @@
-import OdigeoDefaultButton from './components/OdigeoButtons/OdigeoDefaultButton'
+import OdigeoDefaultButton from './components/OdigeoButtons/Primary'
 
 export default OdigeoDefaultButton
