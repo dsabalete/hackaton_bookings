@@ -1,7 +1,3 @@
-import Primary from './components/OdigeoButtons/Primary'
-import Input from './components/Forms/Input'
+import OdigeoDefaultButton from './components/OdigeoButtons/OdigeoDefaultButton'
 
-export {
-    Primary,
-    Input,
-}
+export default OdigeoDefaultButton
