@@ -8,6 +8,8 @@ import OdigeoDisabledButton from '../components/OdigeoButtons/OdigeoDisabledButt
 import OdigeoSelectedButton from '../components/OdigeoButtons/OdigeoSelectedButton'
 import OdigeoFocusErrorButton from '../components/OdigeoButtons/OdigeoFocusErrorButton'
 
+import Primary from '../components/OdigeoButtons/Primary'
+
 storiesOf('Primary Odigeo Buttons', module)
   .addDecorator(jsxDecorator)
   .add('Default Button', () => (
@@ -21,4 +23,13 @@ storiesOf('Primary Odigeo Buttons', module)
   ))
   .add('Focus-error Button', () => (
     <OdigeoFocusErrorButton>Book now</OdigeoFocusErrorButton>
-  ));
+  ))
+  .add('Primary', () => (
+    <Primary>Book now</Primary>
+  ))
+  .add('Primary disabled', () => (
+    <Primary disabled>Book now</Primary>
+  ))
+  .add('Primary error', () => (
+    <Primary error>Book now</Primary>
+  ))
