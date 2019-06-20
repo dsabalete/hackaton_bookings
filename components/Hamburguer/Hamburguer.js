@@ -5,7 +5,6 @@ import classes from './Hamburguer.scss'
 export default class Hamburguer extends React.Component {
     
     render() {
-        console.log(classes)
       return (
         <nav role="navigation">
             <div id={classes.menuToggle}>
