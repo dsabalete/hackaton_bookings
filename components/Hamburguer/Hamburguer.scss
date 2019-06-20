@@ -1,55 +1,19 @@
-.odf-header {
-    display: flex;
-    align-items: center;
-    background: #1E44D5;
-    height: 75px;
-    width: 100%;
-    color: white;
-    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.75);
-}
-
-.odf-header-img {
-    height: 75px;
-    width: 100px;
-}
-
-/*
- * Made by Erik Terwan
- * 24th of November 2015
- * MIT License
- *
- *
- * If you are thinking of using this in
- * production code, beware of the browser
- * prefixes.
- */
-
- body
+#menuToggle
  {
-   margin: 0;
-   padding: 0;
-   
-   /* make it look decent enough */
-   background: #232323;
+  a
+  {
+    text-decoration: none;
+    color: #232323;
+    
+    transition: color 0.3s ease;
+  }
+  
+  a:hover
+  {
+    color: tomato;
+  }
    color: #cdcdcd;
    font-family: "Avenir Next", "Avenir", sans-serif;
- }
- 
- a
- {
-   text-decoration: none;
-   color: #232323;
-   
-   transition: color 0.3s ease;
- }
- 
- a:hover
- {
-   color: tomato;
- }
- 
- #menuToggle
- {
    display: block;
    position: relative;
    top: 50px;
